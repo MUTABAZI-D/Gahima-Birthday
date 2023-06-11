@@ -1,0 +1,70 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background-color: rgb(16, 188, 246);
+    color: whitesmoke;
+    font-size: 18px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 4px solid gray;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+.age{
+    background-color:   gray;
+    padding: 3px 7px;
+    margin-bottom: 5px;
+}
+.date{
+    background-color:  gray;
+    font-size: 12px;
+    padding: 0 5px;
+    margin-bottom: 20px;
+}
+.hover{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.gift-holder{
+    width: 200px;
+    height: 200px;
+    background-image: url("images\ \(1\).jfif");
+    background-size: cover;
+    margin: 10px auto 25px;
+    border: 4px solid brown;
+    border-radius: 8px;
+}
+.gift-holder:hover{
+    background-image: url("giphs/200w\ \(1\).webp");
+    cursor: pointer;
+    background-size: cover;
+}
+#holder-2:hover{
+    background-image: url("giphs/200.webp");
+}
+#holder-3:hover{
+    background-image: url("giphs/200\ \(3\).webp");
+}
+#holder-4:hover{
+    background-image: url("giphs/200\ \(2\).webp");
+}
+#holder-5:hover{
+    background-image: url("giphs/200\ \(1\).webp");
+}
+#holder-6{
+    width: 200px;
+    height: 100px;
+    background-position: center;
+}
+#holder-6:hover{
+    background-image: url("giphs/100.webp");
+}
